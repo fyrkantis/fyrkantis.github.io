@@ -1,5 +1,12 @@
 body {
+
+    background-color: #d0d0d0;
+
     font-family: "Arial", serif;
+}
+
+h1 {
+    font-weight: normal;
 }
 
 a {
@@ -12,17 +19,27 @@ a:hover {
     text-decoration: underline;
 }
 
+div {
+
+    padding: 10px;
+    background-color: #ffffff;
+
+    border-radius: 30px;
+}
+
 div.header {
     position: fixed;
     top: 0px;
     left: 0px;
 
-    width: 100%;
+    width: calc(100% - 75px);
 
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 10px;
-    padding-left: 60px;
+    padding-left: 65px;
     padding-right: 10px;
+
+    border-radius: 0px;
 
     background-color: #303030;
     color: #ffffff;
@@ -33,6 +50,13 @@ div.header {
 
 img.header {
     position: fixed;
-    top: 0px;
+    top: 5px;
     left: 0px;
+}
+
+video {
+    width: calc(100% + 20px);
+    margin: -10px;
+    margin-bottom: 10px;
+
 }
