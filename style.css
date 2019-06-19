@@ -27,12 +27,12 @@ div {
     border-radius: 30px;
 }
 
-div.header {
+.top-bar {
     position: fixed;
     top: 0px;
     left: 0px;
 
-    width: calc(100% - 75px);
+    width: calc(100%);
 
     padding-top: 40px;
     padding-bottom: 10px;
@@ -45,10 +45,11 @@ div.header {
     color: #ffffff;
     opacity: 0.8;
 
-    font-size: 20px
+    font-size: 20px;
+    z-index: 1;
 }
 
-img.header {
+img.top {
     position: fixed;
     top: 5px;
     left: 0px;
