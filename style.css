@@ -1,14 +1,35 @@
 body {
     background-color: #333;
 
+    margin: 0px;
+    padding: 0px;
+
     font-size: 15px;
     font-family: "Arial", serif;
 }
 
 .background {
     background-color: #bbb;
+}
 
-    margin: -8px;
+h1 {
+    color: #fff;
+    line-height: 0px;
+
+    font-size: calc(20px + 3vw);
+    font-weight: bold;
+
+    text-shadow: 0.1em 0.1em #22aa;
+    
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+    line-height: 0px;
+
+    font-size: 24px;
+    font-weight: normal;
 }
 
 h3 {
@@ -39,7 +60,7 @@ a:hover {
     left: 0px;
 
     padding-top: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     padding-left: 65px;
     padding-right: 10px;
 
@@ -57,17 +78,20 @@ img.top {
 
 video {
     width: 100%;
-    margin-bottom: 10px;
 
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
 }
 
+.logo {
+    position: absolute;
+    width: 100%;
+
+    margin-top: -1em;
+}
+
 .frame {
     background-color: #999;
-
-    border-top-left-radius: 50% 30px;
-    border-top-right-radius: 50% 30px;
 }
 
 .top-text {
@@ -82,7 +106,7 @@ video {
     background-color: #ddd;
 
     margin: 10px;
-    padding: 1%;
+    padding: 2%;
     border-radius: 10px;
 }
 
@@ -90,5 +114,6 @@ video {
     color: #fff;
     background-color: #333;
 
-    padding: 10px;
+    padding: 20px;
+    padding-top: 10px;
 }
